@@ -34,3 +34,8 @@ ingredients.each do |ingredient|
   puts "Ingredient #{new.name} created"
 end
 puts "All Ingredients added"
+
+
+Cocktail.create(name: "Long Island")
+Cocktail.create(name: "Old Fashioned")
+Cocktail.create(name: "Sex on the Beach")
