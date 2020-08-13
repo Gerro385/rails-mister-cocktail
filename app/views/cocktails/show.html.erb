@@ -3,4 +3,4 @@
 
 <%= @cocktail.name %>
 <%= link_to "Back to All Cocktails", cocktails_path, class: "btn btn-primary"%>
-<%= link_to "Add a new Dose to this Cocktail", new_cocktail_dose_path([@cocktail, @dose]) class: "btn btn-primary"%>
+<%= link_to "Add a new Dose to this Cocktail", new_cocktail_dose_path(@cocktail, @dose), class: "btn btn-primary"%>
