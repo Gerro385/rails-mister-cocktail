@@ -19,7 +19,7 @@ class DosesController < ApplicationController
   end
 
   def destroy
-    @dose = Dose.find(@dose)
+    @dose = Dose.find(params[:id])
     @dose.destroy
   end
 
